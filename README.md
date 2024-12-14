@@ -6,23 +6,23 @@
 
 About This Course:
 
--   🔐 Authentication System with JWT
--   🛡️ Route Protection
--   👤 User Profile Creation and Updates
--   🖼️ Image Upload for Profiles
--   🔄 Swipe Right/Left Feature
--   💬 Real-time Chat Messaging
--   🔔 Real-time Notifications
--   🤝 Matching Algorithm
--   📱 Responsive Mobile Design
--   ⌛ And a lot more...
+- 🔐 Authentication System with JWT
+- 🛡️ Route Protection
+- 👤 User Profile Creation and Updates
+- 🖼️ Image Upload for Profiles
+- 🔄 Swipe Right/Left Feature
+- 💬 Real-time Chat Messaging
+- 🔔 Real-time Notifications
+- 🤝 Matching Algorithm
+- 📱 Responsive Mobile Design
+- ⌛ And a lot more...
 
 ### Setup .env file
 
 ```bash
 PORT=5000
-MONGO_URI=<your_mongo_uri>
-
+MONGO_URI=mongodb+srv://abhirehpadeg:lNAFpdGnhYzfhajj@cluster0d0.7srnr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0d0
+//lNAFpdGnhYzfhajj
 JWT_SECRET=<your_very_strong_secret>
 
 NODE_ENV=development
@@ -36,7 +36,7 @@ CLOUDINARY_CLOUD_NAME=<your_cloudinary_cloud_name>
 
 ### Run this app locally
 
--   Set `NODE_ENV=production` and build the app 👇
+- Set `NODE_ENV=production` and build the app 👇
 
 ```shell
 npm run build
